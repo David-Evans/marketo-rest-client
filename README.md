@@ -8,7 +8,7 @@ Installation
 ----------------
 The recommended way of installing the client is via [Composer](http://getcomposer.org/). Simply run the following command to add the library to your composer.json file.
 
-    composer require David-Evans/marketo-rest-client
+    composer require david-evans/marketo-rest-client
 
 Setup
 ----------------
