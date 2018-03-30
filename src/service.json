@@ -298,6 +298,26 @@
             },
             "responseModel": "baseResponse",
             "responseClass": "CSD\\Marketo\\Response"
+        },
+        "getStatsErrors": {
+            "httpMethod": "GET",
+            "uri": "/rest/v1/stats/errors.json",
+            "parameters": {}
+        },
+        "getStatsErrorsLastSevenDays": {
+            "httpMethod": "GET",
+            "uri": "/rest/v1/stats/errors/last7days.json",
+            "parameters": {}
+        },
+        "getStatsUsage": {
+            "httpMethod": "GET",
+            "uri": "/rest/v1/stats/usage.json",
+            "parameters": {}
+        },
+        "getStatsUsageLastSevenDays": {
+            "httpMethod": "GET",
+            "uri": "/rest/v1/stats/usage/last7days.json",
+            "parameters": {}
         }
     },
     "models": {
